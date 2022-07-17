@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/OxanaDemova/goit-react-hw-02-phonebook.git/static/css/main.7acaea2f.css",
+    "main.js": "/OxanaDemova/goit-react-hw-02-phonebook.git/static/js/main.ef88981f.js",
+    "index.html": "/OxanaDemova/goit-react-hw-02-phonebook.git/index.html",
+    "main.7acaea2f.css.map": "/OxanaDemova/goit-react-hw-02-phonebook.git/static/css/main.7acaea2f.css.map",
+    "main.ef88981f.js.map": "/OxanaDemova/goit-react-hw-02-phonebook.git/static/js/main.ef88981f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.ef88981f.js"
+  ]
+}
