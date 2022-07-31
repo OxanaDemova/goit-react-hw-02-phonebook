@@ -1,19 +1,26 @@
 import { Component } from "react";
+import { nanoid } from "nanoid";
 import { Container } from "./Container/Container";
-import { Phonebook } from "./Phonebook/Phonebook";
-
+import { Form } from "./Form/Form";
+import { ContactsList } from "./ContactsList/ContactsList";
 
 export class App extends Component {
   state = {
   contacts: [],
   name: ''
   }
+
+  nameId = nanoid();
   
   render() {
     return (
       <Container>
-        <Phonebook
-        title={'Phonebook'}/>
+        <Form
+           />
+        {/* <ContactsList
+          title={'Contacts'}
+          id={this.nameId} /> */}
+        
       </Container>
 
     );
