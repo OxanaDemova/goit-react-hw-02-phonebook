@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import './Container.module.css';
+import s from './Container.module.css';
 
 export const Container = ({ children }) => {
     return (
-        <div className='container'>{children}</div>
+        <div className={s.container}>{children}</div>
     )
 };
 

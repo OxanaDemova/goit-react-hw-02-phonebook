@@ -1,0 +1,18 @@
+.form {
+    border: 1px solid black;
+    padding: 30px 15px;
+    width: fit-content;
+    
+}
+
+.formLabel {
+    display: block;
+    margin-bottom: 5px;
+}
+.input {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: block;
+}
