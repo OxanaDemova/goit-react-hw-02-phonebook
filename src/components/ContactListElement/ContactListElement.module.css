@@ -1,0 +1,23 @@
+.item:not(:last-child) {
+    margin-bottom: 15px;
+
+}
+
+.item::before{
+    content: "\1f57e";
+}
+
+.btn{
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    margin-left: 15px;
+    color: #010c0e;
+    background-color: #8fe4f5;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #d7f5fb;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
