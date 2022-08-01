@@ -1,5 +1,6 @@
 .input {
     display: block;
+    min-width: 250px;
     margin-top: 15px;
     margin-bottom: 25px;
 }
