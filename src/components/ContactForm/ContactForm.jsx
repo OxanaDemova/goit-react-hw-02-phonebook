@@ -1,5 +1,7 @@
+import PropTypes from 'prop-types';
 import { nanoid } from 'nanoid';
 import { Component } from 'react';
+import './ContactForm.module.css'
 
 export class ContactForm extends Component {
     state = {
@@ -36,7 +38,7 @@ export class ContactForm extends Component {
         return (
             
 
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} className='form'>
                 <label htmlFor={this.nameInputId}>Name</label>
                 <input
                     type="text"
@@ -69,3 +71,7 @@ export class ContactForm extends Component {
     }
    
 }
+
+ContactForm.propTypes = {
+    onSubmit: PropTypes.func,
+};
